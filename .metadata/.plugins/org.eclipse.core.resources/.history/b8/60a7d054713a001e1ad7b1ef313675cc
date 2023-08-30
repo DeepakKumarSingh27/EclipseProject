@@ -1,0 +1,5 @@
+package productcrudapp.utility;
+
+public class WebInitializer {
+
+}

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="F:\HibernateReaptedBatch\Springorm"/>
+			<item value="F:\HibernateReaptedBatch\ManyToManyMapping"/>
+			<item value="F:\HibernateReaptedBatch\Springdemo2Nsir"/>
+			<item value="F:\HibernateReaptedBatch\OneToOneMapping\src\main\java\org\jsp\mapping\OneToOneMapping\Person.java"/>
+			<item value="F:\HibernateReaptedBatch\OneToManyMapping"/>
+			<item value="F:\HibernateReaptedBatch\OneToOneMapping\src\main\java\hibernate.cfg.xml"/>
+			<item value="F:\HibernateReaptedBatch\hibernate_demo1"/>
+			<item value="F:\HibernateReaptedBatch\Hibernate_demo\pom.xml"/>
+			<item value="F:\HibernateReaptedBatch\Hibernate_demo\src\main\resources\Hibernate.cfg.xml"/>
+			<item value="F:\HibernateReaptedBatch\Hibernate_demo\src\main\java\org\jsp\hibernatedemo\Test.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.aop.aopconcept"/>
+			<item value="com.opearion.productcrudapp"/>
+			<item value="springmvcexample"/>
+			<item value="com.spring.search"/>
+			<item value="com.spring.mvc"/>
+			<item value="com.spring.orm"/>
+			<item value="com.spring.jdbc"/>
+			<item value="com.springcore.springcore"/>
+		</list>
+		<list key="groupId">
+			<item value="com.aop"/>
+			<item value="com.operation"/>
+			<item value="com.springmvcexamole"/>
+			<item value="com.spring.search"/>
+			<item value="com.spring.mvc"/>
+			<item value="com.spring.orm"/>
+			<item value="com.spring.jdbc"/>
+			<item value="com.springcore"/>
+		</list>
+		<list key="artifactId">
+			<item value="aopconcept"/>
+			<item value="productcrudapp"/>
+			<item value="springmvcexamole"/>
+			<item value="springmvcsearch"/>
+			<item value="SpringMVC"/>
+			<item value="springmvc"/>
+			<item value="Springorm"/>
+			<item value="springjdbc"/>
+			<item value="springcore"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.preferences.RemoteArchetypeCatalogDialog">
+		<list key="catalogUrl">
+			<item value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\HospitalManagementSysyem-master"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="Hospital-Management-Using-Servlets"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Hospital-Management-Using-Servlets"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="838"/>
+		<item key="x" value="1200"/>
+		<item key="y" value="0"/>
+	</section>
+</section>

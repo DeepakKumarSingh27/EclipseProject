@@ -1,0 +1,8 @@
+package org.jspLevel1OneToOneMapping.Level1OneToOneMapping2;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    }
+}

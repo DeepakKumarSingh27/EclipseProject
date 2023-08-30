@@ -1,0 +1,28 @@
+package org.jspLevel1OneToOneMapping.Level1OneToOneMapping2;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+public class Food {
+	@Id
+	@GeneratedValue(strategy = )
+	private int fid;
+	private String fname;
+	public int getFid() {
+		return fid;
+	}
+	public void setFid(int fid) {
+		this.fid = fid;
+	}
+	public String getFname() {
+		return fname;
+	}
+	public void setFname(String fname) {
+		this.fname = fname;
+	}
+	@Override
+	public String toString() {
+		return "Food [fid=" + fid + ", fname=" + fname + "]";
+	}
+	
+}

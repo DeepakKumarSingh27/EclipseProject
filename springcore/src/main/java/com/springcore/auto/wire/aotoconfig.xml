@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="https://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+
+
+
+	<bean class="com.springcore.auto.wire.Address" name="address">
+		<property name="street" value="GulabBagh BEttiah" />
+		<property name="city" value="Bettiah" />
+	</bean>
+	
+	
+	
+	<bean class="com.springcore.auto.wire.Address" name="address2">
+		<property name="street" value="Nautan Thana" />
+		<property name="city" value="Nautan" />
+	</bean>
+
+	<bean class="com.springcore.auto.wire.Emp" name="emp1"
+		autowire="constructor" />
+
+
+
+</beans>

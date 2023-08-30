@@ -1,0 +1,15 @@
+package org.jspLevel1OneToOneMapping.Level1OneToOneMapping2;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
+public class Restaurant {
+	@Id
+	@GeneratedValue(strategy = )
+	private int rid;
+	private String rname,rfounder;
+	
+
+}

@@ -1,0 +1,7 @@
+package org.jspLevel1OneToOneMapping.Level1OneToOneMapping2;
+
+public class Food {
+	@id'
+private int fid;
+private String fname;
+}

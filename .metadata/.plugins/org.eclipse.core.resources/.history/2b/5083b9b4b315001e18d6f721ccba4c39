@@ -1,0 +1,49 @@
+package org.jspLevel1OneToOneMapping.Level1OneToOneMapping2;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Configuration cfg= new Configuration().configure().addAnnotatedClass(Restaurant.class).addAnnotatedClass(Food.class);;
+		SessionFactory sf = cfg.buildSessionFactory();
+		Session session = sf.openSession();
+		Transaction tr = session.beginTransaction();
+		
+		Restaurant r = new Restaurant();
+		r.setRid(101);
+		r.setRname("veg");
+		r.setRfounder("Deepak");
+		
+		Food f1 = new Food();
+		f1.setFid(10);
+		f1.setFname("checkan");
+		
+		Food f2 = new Food();
+		f2.setFid(20);
+		f2.setFname("vegThali");
+		
+		
+		Food f3 = new Food();
+		f3.setFid(30);
+		f3.setFname("sakhariThali");
+		
+		
+		List<Food> foods = new ArrayList<>();
+		foods.add(f1);
+		foods.add(f2);
+		foods.add(f3);
+
+		r.setFo
+		
+		
+		
+    }
+}

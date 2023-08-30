@@ -1,0 +1,6 @@
+package org.jspLevel1OneToOneMapping.Level1OneToOneMapping2;
+
+public class Restaurant {
+private int rid;
+private String rname;
+}

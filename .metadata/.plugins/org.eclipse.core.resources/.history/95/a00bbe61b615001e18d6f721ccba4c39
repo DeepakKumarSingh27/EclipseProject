@@ -1,0 +1,54 @@
+package org.jspLevel1OneToOneMapping.Level1OneToOneMapping2;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+
+@Entity
+public class Restaurant {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int rid;
+	private String rname,rfounder;
+
+	@OneToMany
+	private List<Food> branches ;
+
+	public int getRid() {
+		return rid;
+	}
+	public void setRid(int rid) {
+		this.rid = rid;
+	}
+	@Override
+	public String toString() {
+		return "Restaurant [rid=" + rid + ",  rname=" + rname + ", rfounder=" + rfounder + ", branches=" + branches
+				+ "]";
+	}
+	public String getRname() {
+		return rname;
+	}
+	public List<Food> getBranches() {
+		return branches;
+	}
+	public void setBranches(List<Food> branches) {
+		this.branches = branches;
+	}
+	public void setRname(String rname) {
+		this.rname = rname;
+	}
+	public String getRfounder() {
+		return rfounder;
+	}
+	public void setRfounder(String rfounder) {
+		this.rfounder = rfounder;
+	}
+
+
+}

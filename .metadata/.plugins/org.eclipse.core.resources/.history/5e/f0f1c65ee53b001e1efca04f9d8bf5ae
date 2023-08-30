@@ -1,0 +1,11 @@
+package com.aop.aspect;
+
+import org.aspectj.lang.annotation.Aspect;
+
+@Aspect
+public class myAspect {
+
+public void 	
+	
+	
+}

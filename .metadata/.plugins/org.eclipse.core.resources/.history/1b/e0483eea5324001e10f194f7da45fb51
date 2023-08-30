@@ -1,0 +1,10 @@
+package com.springcore.javaconfig;
+
+import org.springframework.util.FileSystemUtils;
+
+public class Samosa {
+public void display()
+{
+	FileSystemUtils
+}
+}

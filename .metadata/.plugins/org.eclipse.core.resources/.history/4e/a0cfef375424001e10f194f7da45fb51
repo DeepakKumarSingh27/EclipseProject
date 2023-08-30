@@ -1,0 +1,19 @@
+package com.springcore.javaconfig;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+//@ComponentScan(basePackages = "com.springcore.javaconfig")
+
+public class javaConfig {
+	
+	
+	public Samosa 
+
+	@Bean
+	public Student getStudent() {
+		Student student = new Student();
+		return student;
+	}
+}

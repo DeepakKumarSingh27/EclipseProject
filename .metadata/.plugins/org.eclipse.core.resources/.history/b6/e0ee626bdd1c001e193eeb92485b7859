@@ -1,0 +1,21 @@
+package MappinginHibernate;
+
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+
+public class App {
+	public static void main( String[] args ) throws InterruptedException
+	{
+
+		EntityManagerFactory emf= Persistence.createEntityManagerFactory("");
+		EntityManager em = emf.createEntityManager();
+		Alien a = em.find(Alien.class, 1);
+		System.out.println(a);
+
+
+
+	}
+}
